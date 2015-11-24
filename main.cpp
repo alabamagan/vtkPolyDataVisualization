@@ -29,7 +29,7 @@ static void PrintUsage(char* argv[]) {
     << "\t-a,--azimuth\t\tAzimuthal rotation applied to the model along the axis that run in the direction of view up angle through the focal point\n"
     << "\t-e,--elevation\t\tElevation rotation applied to the model.\n"
     << "\t-c,--camera\t\tPoints to the file that stores previous camera information\n"
-    << "\t-t,--translation\t\tTranslation factor, inform of 'X,Y', defualt to 0,0, which corresponds to translation along x-axis and y-axis. Rightwards and Upwards is positive. Note that translation is done after rotation.\n"
+    << "\t-t,--translation\tTranslation factor, inform of 'X,Y', defualt to 0,0, which corresponds to translation along x-axis and y-axis. Rightwards and Upwards is positive. Note that translation is done after rotation.\n"
     << "\t-o,--output\t\tOutput image directory, default to [./tmp.jpg]\n"
     << std::endl;
 };
